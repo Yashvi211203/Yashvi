@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(185, 240, 223);
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size:50px;
+   padding-bottom: 20px;
+   font-style:italic;
+}
+
+#box{
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size:large;
+}
+#box2{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    font-size:large;
+}
+label{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+
+
+button {
+    background-color: #020202;
+    color: white;
+    margin-top: 40px;
+    padding: 15px 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000000;
+}

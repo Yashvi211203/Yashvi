@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic Web Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Hello Everyone</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="{% url 'Query_Form' %}">Query Form</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p id="dynamic">Random Quote: "{{ random_quote }}"</p> 
+        <h2>Welcome to My Webpage !!</h2>
+        <p>This is a simple web page created using HTML and CSS.<br> This webpage is a challenge or project which i have to complete for my python development internship.<br> Here you can see that i have created an header, main content area and footer.</p>
+        <br>
+        <br>
+        <p id="dynamic2">Current Date and Time: {{ current_time }}</p>  <!-- Dynamic Content: Date/Time -->
+    </main>
+
+    <footer>
+        <p>Contact us<br> Email: yashvinagar1221@example.com | Phone: +91 8160929335</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+asgiref==3.7.2
+db-sqlite3==0.0.1
+distlib==0.3.8
+Django==5.0.1
+sqlparse==0.4.4
+tzdata==2023.4
